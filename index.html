@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <title>swiper</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <hr class="header__line">
+            <h1 class="header__text">
+                РЕМОНТ ТЕХНИКИ РАЗЛИЧНЫХ БРЕНДОВ
+            </h1>
+        </header>
+        <div class="logo swiper-container">
+            <div class="swiper-wrapper">
+            <div class="logo__icon logo__lenovo swiper-slide"> <img class="logo__img img img__lenovo"src="images/lenovo.png" alt="логотип леново"><img class="img__go" src="images/go.png" alt=""></div>
+            <div class="logo__icon logo__samsung swiper-slide"><img class="logo__img img img__samsung"src="images/samsung.png" alt=""><img class="img__go" src="images/go.png" alt=""></div>
+            <div class="logo__icon logo__apple swiper-slide"><img class="logo__img img img__apple"src="images/apple.png" alt=""><img class="img__go" src="images/go.png" alt=""></div>
+            <div class="logo__icon logo__viewsonic swiper-slide"><img class="logo__img img img__viewsonic"src="images/viewsonic.png" alt=""><img class="img__go" src="images/go.png" alt=""></div>
+            <div class="logo__icon logo__bosch swiper-slide"><img class="logo__img img img__bosch"src="images/bosch.png" alt=""><img class="img__go" src="images/go.png" alt=""></div>
+            <div class="logo__icon logo__hp swiper-slide"><img class="logo__img img img__hp"src="images/hp.png" alt=""><img class="img__go" src="images/go.png" alt=""></div>
+            <div class="logo__icon logo__acer swiper-slide"><img class="logo__img img img__acer"src="images/acer.png" alt=""><img class="img__go" src="images/go.png" alt=""></div>
+            <div class="logo__icon logo__sony swiper-slide"><img class="logo__img img img__sony"src="images/sony.png" alt=""><img class="img__go" src="images/go.png" alt=""></div>
+        </div>
+        <div class="swiper-pagination"></div>
+        </div>
+        <div class="logo hiddenblocks" id="hiddenblocks__id" style="display: none;">
+            <div class="logo__icon logo__viewsonic-hidden"><img class="logo__img img img__viewsonic"src="images/viewsonic.png" alt=""><img class="img__go" src="images/go.png" alt=""></div>
+            <div class="logo__icon logo__sony-hidden "><img class="logo__img img img__sony"src="images/sony.png" alt=""><img class="img__go" src="images/go.png" alt=""></div>
+            <div class="logo__icon logo__lenovo-hidden"> <img class="logo__img img img__lenovo"src="images/lenovo.png" alt="логотип леново"><img class="img__go" src="images/go.png" alt=""></div>
+            <div class="logo__icon logo__samsung-hidden"><img class="logo__img img img__samsung"src="images/samsung.png" alt=""><img class="img__go" src="images/go.png" alt=""></div>
+            <div class="logo__icon logo__apple-hidden"><img class="logo__img img img__apple"src="images/apple.png" alt=""><img class="img__go" src="images/go.png" alt=""></div>
+        </div>
+        <button class="btn_interact" id="btn" ><img class="rotated" src="images/expand.png" id="rotatedImage" alt=""><span class="button__text">Показать все</span></button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
